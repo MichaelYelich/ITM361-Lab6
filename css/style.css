@@ -1,51 +1,67 @@
 #main-navbar {
   background-color: blue;
+  overflow: hidden;
 }
+
 #navbar-container{
   width: 100%;
   position: relative;
 }
-#main-navbar {
-  overflow: hidden;
-}
+
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}  
-  
+} 
+ 
 #main-navbar ul li {
   float: left;
 }
+
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   color #fff
   text-decoration: none;
- }
+}
+ 
 #main-navbar ul li a:hover {
   background-color: #000;
   text-decoration: underline overline;
 }
-  float: left;
-  float: left;
-  position: relative;
-  right:50%;
-  display: block;
-  position:relative;
-  left: 50%;
-aside{
-  position: fixed;
+
+#sidebar{
   right: 0%;
+  position: fixed;
   background-color: red;
+}
+
+#sidebar-container{
   height: 100%;
   width: 20%;
+}
+
+#sidebar ul {
   list-style-type: none;
+}
+
+#sidebar ul li {
   text-align: center;
   padding: 0;
+}
+
+#sidebar ul li a{
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
+}
+
+#sidebar ul li a:hover{
   background-color: #000;
 }
+  
+  
+  
+  
+
