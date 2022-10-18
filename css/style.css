@@ -4,8 +4,7 @@
 }
 
 #navbar-container{
-  right: 50%;
-  left: 50%;
+  float: left;
   width: 100%;
   position: relative;
 }
@@ -18,19 +17,25 @@
 } 
  
 #main-navbar ul li {
+  left: 50%;
   float: left;
-  position: relative;
 }
 
 #main-navbar ul li a {
+  float:left;
+  right:50%;
+  display: block;
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
- 
+#main-navbar ul li a: Page 2{
+
+}
 #main-navbar ul li a:hover {
   background-color: #000;
+  text-decoration: underline overline;
 }
 
 #sidebar{
